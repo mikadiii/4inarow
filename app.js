@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					continue;
 				} else {
 					event.target.parentNode.children[i].innerText = player;					//"set" a field
-					fisValid = true;
+					isValid = true;
 					switch (player) {														//change text color
 						case "X":
 							event.target.parentNode.children[i].classList.add('playerX');
