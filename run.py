@@ -6,7 +6,11 @@ app = Flask(__name__)
 def inarow4():
         return render_template('4gewinnt')
 
-@app.route('/4inarow-data', methods=['POST'])
+@app.route('/test')
+def testpage():
+        return render_template('test')
+
+@app.route('/receiver', methods=['POST'])
 def online4inarow():
 	uid = request.form['user']
 	data = request.form['data']
