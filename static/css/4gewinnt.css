@@ -1,0 +1,35 @@
+ {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.col {
+    display: table;
+}
+
+.col:hover {
+	background-color: Gainsboro;
+}
+.winnerX {background-color:dodgerblue;}
+.playerX {color:blue;}
+.winnerO {background-color:tomato;}
+.playerO {color:red;}
+.black {color:black;}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
