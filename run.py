@@ -12,7 +12,6 @@ def testpage():
 
 @app.route('/receiver', methods=['POST'])
 def online4inarow():
-	uid = request.form['user']
 	data = request.form['data']
 	return "",204
 
