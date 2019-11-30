@@ -11,8 +11,9 @@ def testpage():
         return render_template('test')
 
 @app.route('/receiver', methods=['POST'])
-def online4inarow():
+def testdata():
 	data = request.form['data']
+	print data
 	return "",204
 
 if __name__ == '__main__':
